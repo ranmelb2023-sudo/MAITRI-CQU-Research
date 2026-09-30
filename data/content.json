@@ -1,1 +1,96 @@
-
+{
+  "site": {
+    "name": "MAITRI",
+    "tagline": "Edge-AI for Sustainable Energy",
+    "eyebrow": "CQUniversity Australia · Research Project",
+    "title": "Edge-AI Enabled Autonomous Drone System for Real-Time Fault Detection in Solar Energy Infrastructure",
+    "description": "A CQUniversity research project exploring intelligent autonomous inspection, lightweight Edge-AI, explainable AI and cyber-resilient technologies for solar energy infrastructure."
+  },
+  "about": {
+    "title": "Intelligent inspection for smarter solar infrastructure.",
+    "paragraphs": [
+      "The research proposes a secure and intelligent autonomous drone-based monitoring system powered by Edge-AI for real-time fault detection in solar energy infrastructure.",
+      "The framework brings together drone-based RGB and thermal imaging, lightweight AI models, explainability, hardware-aware optimisation and cyber resilience."
+    ]
+  },
+  "objectives": [
+    ["Autonomous inspection", "Develop an autonomous drone-based solar inspection platform using RGB and thermal imaging sensors."],
+    ["Lightweight Edge-AI", "Design computationally efficient models for real-time onboard fault detection and localisation."],
+    ["Explainable AI", "Integrate XAI techniques to improve interpretability and trustworthiness of AI-based decisions."],
+    ["Security & resilience", "Develop secure communication and resilient AI mechanisms against cyber threats and adversarial manipulation."],
+    ["Hardware-aware optimisation", "Optimise AI inference performance for embedded GPU and FPGA-enabled systems."],
+    ["Validation", "Validate the framework using benchmark datasets, simulation environments and real-time drone experimentation."]
+  ],
+  "methodology": [
+    ["Data Collection", "Drone RGB and thermal imagery; public solar fault datasets"],
+    ["Model Development", "CNN / YOLO-based lightweight models; fault classification and localisation"],
+    ["Optimisation", "Quantisation, pruning and knowledge distillation"],
+    ["Edge Deployment", "NVIDIA Jetson / FPGA implementation and real-time inference"],
+    ["Evaluation", "Accuracy, precision, recall, F1, latency and energy efficiency"]
+  ],
+  "team": [
+    {
+      "name": "Prof. Jamshid Aghaei",
+      "role": "Professor – Engineering (Electrical) · Deputy Dean (Research) – School of Engineering and Technology",
+      "image": "Jamshid.png",
+      "areas": [
+        "Renewable power systems",
+        "Smart grids and microgrids",
+        "AI and optimisation",
+        "Fault detection and resilience"
+      ],
+      "profile": "https://staff-profiles.cqu.edu.au/home/view/26783"
+    },
+    {
+      "name": "Dr. Ahsan Morshed",
+      "role": "Graduate Research Leader – School of Engineering · Senior Lecturer – ICT",
+      "image": "Ahsan.png",
+      "areas": [
+        "Artificial Intelligence & Deep Learning",
+        "Explainable AI",
+        "Computer Vision & Image Processing",
+        "Data Science"
+      ],
+      "profile": "https://staff-profiles.cqu.edu.au/home/view/24350"
+    }
+  ],
+  "researchQuestions": [
+    "How can drone systems be integrated with Edge-AI for real-time solar fault detection?",
+    "What lightweight AI models can achieve high accuracy under embedded hardware constraints?",
+    "How can explainability improve trust in AI-based solar inspection systems?",
+    "How can cyber resilience be improved in autonomous drone systems?",
+    "Can real-time onboard inference outperform cloud-based systems in latency and efficiency?"
+  ],
+  "roadmap": [
+    [
+      "Year 1",
+      "Foundations",
+      [
+        "Literature review",
+        "Dataset preparation",
+        "Baseline AI model development",
+        "Review and baseline publications"
+      ]
+    ],
+    [
+      "Year 2",
+      "Edge intelligence",
+      [
+        "Edge-AI optimisation",
+        "XAI integration",
+        "Initial drone-based deployment",
+        "Real-time detection research"
+      ]
+    ],
+    [
+      "Year 3",
+      "Secure deployment",
+      [
+        "Secure and robust drone systems",
+        "Full real-time embedded deployment",
+        "Real-world validation",
+        "Benchmarking and publications"
+      ]
+    ]
+  ]
+}
